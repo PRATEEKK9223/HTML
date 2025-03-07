@@ -1,0 +1,13 @@
+<table> :- to creat the table 
+<caption> :- to write the name of the table or heading of the table
+<thead> :- to defines the head part of the table
+<tbody> :- To defines the body of the table
+<tr> :- to creat a new row
+<th> :- to defines the Coloumn heading
+<td> ;- to defines the Coloumn data
+
+table attribute:
+ these attributes are used only with <th> and <td> tags
+
+ <th colspan = "number"> :- to merge specified number of  Coloumns
+  <th rowspan = "number"> :- to merge specified number of rows
