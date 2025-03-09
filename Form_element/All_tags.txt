@@ -1,0 +1,76 @@
+1]The form element consists of input elment to take the user input 
+
+ form attributes ::--
+
+cation:use the URL to send or receive the data;
+name: name attribute is essential to submit the form;
+Method:
+two types:
+get:-✅ Corrected: "Sends form data as URL parameters (visible in the address bar)."
+post:-✅ Corrected: "Sends form data in the request body (hidden from the URL)."
+ Sends data securely in the request body.
+
+2]type for input 
+The possible value of "type"	       Description
+text	    Creates textbox
+password	Creates textbox that accepts the only password
+checkbox	Creates checkbox
+radio	    Creates a radio button
+button	    Creates button
+submit	    Creates a button that submits values of all form elements to the server
+reset	    Creates a button that resets values of all form elements to their default value
+image	    Creates a graphical version of a button
+file	    Creates control to upload the file to the server
+hidden	    Creates a hidden text field
+email	    Creates textbox that accepts only valid email id
+number	    Creates spinbox that accepts only whole numbers
+range	    Creates a range slider
+search	    Creates a search bar
+URL	        Creates textbox that accepts only valid URL
+color	    Creates color picker
+date	    Creates date picker to select date
+month	    Creates date picker to select a month
+week	    Creates date picker to select week
+
+3]Label:
+
+The <label> element is used to associate a text label with a form <input> field. The label is used to tell users the value that should be entered in the associated input field.
+
+Additionally, the "for" attribute of the label can point to the "id" of input control. This ensures the cursor focuses on the respective input control on the click of the label.
+
+It also enhances the usability, by allowing the user to toggle the control by clicking on text written within <label>…</label> tag.
+
+syntax::::
+            <label for="firstname">Firstname:</label>
+            <input type="text" id="firstname" />
+            Lastname: <input type="text" id="lastname" />
+
+4]button
+<button>  element:
+
+Defines a clickable button that can be used to submit the form. 
+
+The button can be of 3 types:
+
+submit (default with <button> tag)
+
+reset (to reset the form)
+
+button (just a clickable button)
+
+Syntax:::
+    <button type="submit">enter submit</button>
+    type=button,reset,submit.
+
+5]Textarea to accepts multiple lines of input from user
+
+<textarea> element: 
+
+Defines a multi-line text field.
+
+It is not possible to set a default text using the value attribute. Hence, default text can be placed into <textarea>…</textarea> tag.
+
+sYntax:::
+Write your comments: <textarea rows="4" cols="10" >Default value</textarea>
+
+
